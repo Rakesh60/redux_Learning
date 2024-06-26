@@ -1,0 +1,18 @@
+.folder{
+    background-color: rgb(40, 68, 228);
+    color:white;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;   
+    flex-direction: column;
+    font-size: 25px;
+}
+
+button{
+    background-color: white;
+    border: none;
+    font-size: 25px;
+}
+.expand{
+    transform: rotate(90deg);
+}

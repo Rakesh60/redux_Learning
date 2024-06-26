@@ -4,18 +4,17 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
+import Layout from "./Layout";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   {
-    path: "about",
-    element: <About />,
-  },
-  {
-    path: "contact",
-    element: <Contact />,
-    errorElement: <div>Error in contact</div>,
-  },
+    path: "/profile",element:<Layout></Layout>, children: [
+      {index:true,element:<div>Parent profile home</div>},
+      { path: "/profile/1", element: <div>profile component</div> }
+    ]
+  }
+
 ]);
 function App() {
   return (
