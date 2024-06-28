@@ -1,0 +1,15 @@
+.list {
+  text-decoration: none;
+
+  font-size: 22px;
+}
+.list ul li {
+  position: relative;
+  right: 40%;
+  list-style: none;
+}
+.list ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(230, 124, 3);
+}
