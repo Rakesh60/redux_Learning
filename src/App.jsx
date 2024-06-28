@@ -7,7 +7,7 @@ import Home from "./Pages/Home";
 import Layout from "./Layout";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
+  { path: "/", element: <Layout></Layout> },
   {
     path: "/profile",element:<Layout></Layout>, children: [
       {index:true,element:<div>Parent profile home</div>},

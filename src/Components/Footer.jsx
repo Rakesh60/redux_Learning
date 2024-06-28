@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
   return (
-    <div style={{backgroundColor:'navy',fontSize:'18px',border:'dashed 2px red'}}>
+    <div
+      style={{
+        minHeight: "60px",
+        border: "black 2px solid",
+        textAlign: "center",
+        fontSize: "2rem",
+        marginTop: "1rem",
+        position: "absolute",
+        width:'100%',
+        bottom: "0",
+      }}
+    >
       Footer JSX
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

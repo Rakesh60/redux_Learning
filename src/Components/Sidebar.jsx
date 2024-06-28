@@ -1,19 +1,19 @@
 import React from "react";
 
-function Header() {
+function Sidebar() {
   return (
     <div
       style={{
-        minHeight: "60px",
+        minHeight: "500px",
+        width: "25%",
         border: "black 2px solid",
         textAlign: "center",
-        fontSize: "2rem",
-        marginBottom: "1rem",
+        backgroundColor: "lavender",
       }}
     >
-      Header from react
+      Sidebar
     </div>
   );
 }
 
-export default Header;
+export default Sidebar;
