@@ -21,7 +21,7 @@ const router = createBrowserRouter([
             element: (
               <div
                 style={{
-                  border: "yellow 2px solid",
+                  border: "black 2px solid",
                   textAlign: "center",
                   fontSize: "2rem",
                   color: "white",

@@ -28,6 +28,7 @@ function Sidebar() {
           </li>
         </ul>
       </div>
+      <Link to="/about/userprofile">userProfile</Link>
     </div>
   );
 }
