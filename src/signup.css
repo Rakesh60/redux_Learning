@@ -1,0 +1,24 @@
+.signup {
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(164, 181, 224);
+  position: absolute;
+  right: 20%;
+  top: 12%;
+  min-height: 500px;
+  min-width: 700px;
+}
+input {
+  background-color: rgb(13, 33, 97);
+  color: aliceblue;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+h3 {
+  margin: 0;
+}
+.button {
+  background-color: greenyellow;
+  color: black;
+  padding: 0.5rem 3rem;
+}

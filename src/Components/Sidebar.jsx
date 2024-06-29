@@ -26,6 +26,10 @@ function Sidebar() {
             {" "}
             <Link to="/contact">Conctact</Link>
           </li>
+          <li>
+            {" "}
+            <Link to="/signup">Sign-Up</Link>
+          </li>
         </ul>
       </div>
       <Link to="/about/userprofile">userProfile</Link>
