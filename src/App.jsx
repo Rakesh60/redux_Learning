@@ -1,6 +1,10 @@
 import "./App.css";
 
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  useParams,
+} from "react-router-dom";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
@@ -34,7 +38,7 @@ const router = createBrowserRouter([
           },
         ],
       },
-      {path:'/signup',element:<Signup/>},
+      { path: "/signup", element: <Signup /> },
       { path: "/contact", element: <Contact /> },
     ],
   },

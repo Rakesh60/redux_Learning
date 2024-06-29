@@ -9,8 +9,15 @@ function Signup() {
   });
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formData);
-    localStorage.setItem("userdat", formData);
+
+    if (formData.username.length != 0) {
+      localStorage.setItem("userdat", JSON.stringify(formData));
+      setFormdata({ username: "", email: "", password: "" });
+    }
+  }
+  let usrData = JSON.parse(localStorage.getItem("userdat"));
+  if (usrData != null) {
+    console.log(usrData);
   }
 
   return (
@@ -41,6 +48,7 @@ function Signup() {
         <br />
         <input type="submit" className="button" />
       </form>
+      <button onClick={() => localStorage.clear()}>Clear Storage</button>
     </div>
   );
 }
