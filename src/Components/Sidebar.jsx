@@ -30,6 +30,10 @@ function Sidebar() {
             {" "}
             <Link to="/signup">Sign-Up</Link>
           </li>
+          <li>
+            {" "}
+            <Link to="/services">Service</Link>
+          </li>
         </ul>
       </div>
       <Link to="/about/userprofile">userProfile</Link>
