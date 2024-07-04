@@ -5,12 +5,12 @@ import {
   createBrowserRouter,
   useParams,
 } from "react-router-dom";
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
-import Home from "./Pages/Home";
+import About from "../Pages/About";
+import Contact from "../Pages/Contact";
+import Home from "../Pages/Home";
 import Layout from "./Layout";
 import Signup from "./Signup";
-import Services from "./Pages/Services";
+import Services from "../Pages/Services";
 
 const router = createBrowserRouter([
   {

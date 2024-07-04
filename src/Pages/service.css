@@ -1,39 +1,40 @@
-div .form{
-    text-align: center;
-    font-size: 2rem;
-    background-color: rgb(164, 181, 224);
-    position: absolute;
-    right: 20%;
-    top: 12%;
-    min-height: 500px;
-    min-width: 700px;
+div .form {
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(164, 181, 224);
+  position: absolute;
+  right: 20%;
+  top: 12%;
+  min-height: 500px;
+  min-width: 700px;
 
-.form{
+  .form {
     background-color: white;
     border-radius: 5px;
     width: 550px;
     margin: 20px auto;
     padding: 20px;
     /* height: 600px; */
-}
+  }
 
-.form-body{
+  .form-body {
     text-align: left;
     padding: 20px 10px;
-}
+  }
 
-.form-body > *{
+  .form-body > * {
     padding: 5px;
-}
+  }
 
-.form__label{
+  .form__label {
     width: 40%;
-}
+  }
 
-.form_input{
+  .form_input {
     width: 60%;
-}
+  }
 
-.footer{
+  .footer {
     text-align: center;
+  }
 }
